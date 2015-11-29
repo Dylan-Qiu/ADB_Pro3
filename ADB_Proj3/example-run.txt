@@ -1,0 +1,66 @@
+1. Frequent itemsets (min_sup=5.0%)
+[a, american], 11.503985828166519%
+[brooklyn, critical], 9.984056687333924%
+[critical, manhattan], 26.990256864481843%
+[american, manhattan, not critical], 8.149985237673457%
+[brooklyn, not critical], 8.00354295837024%
+[american], 31.398878063182757%
+[b], 8.162976085031001%
+[a], 34.89932093297904%
+[12, a], 7.7236492471213465%
+[11], 5.380572778269856%
+[not critical], 43.55358724534987%
+[10], 5.105403011514615%
+[bronx], 8.565692353114851%
+[a, manhattan], 17.238854443460287%
+[american, critical, manhattan], 9.793917921464423%
+[brooklyn], 18.330085621493946%
+[12, critical], 5.071154413935637%
+[b, critical], 5.575435488633008%
+[queens], 20.49955713020372%
+[pizza], 6.8910540301151455%
+[a, brooklyn], 6.26513138470623%
+[a, queens], 7.018600531443756%
+[italian], 9.59551225273103%
+[american, queens], 5.051077649837614%
+[american, not critical], 13.999409506938292%
+[a, american, manhattan], 6.7493356953055805%
+[12], 8.749926188367287%
+[13], 6.586359610274579%
+[critical, italian], 5.410097431355181%
+[a, critical, manhattan], 8.1358134041925%
+[a, manhattan, not critical], 9.027457927369353%
+[a, not critical], 18.33599055211101%
+[13, a], 5.752583407144966%
+[american, manhattan], 18.223796870386774%
+[critical, queens], 11.231178033658104%
+[critical], 54.85680543253617%
+[manhattan], 49.00856214939475%
+[italian, manhattan], 6.143489813994686%
+[not critical, queens], 8.938883968113375%
+[a, critical], 16.423974018305284%
+[american, critical], 16.873929731325656%
+[a, american, critical], 5.317980513728964%
+[manhattan, not critical], 21.30498966637142%
+[a, american, not critical], 6.130498966637142%
+
+
+2. High-confidence association rules (min_conf=50.0%)
+[american] => [manhattan] (Conf: 58.03964343476136%,Supp: 18.223796870386774%)
+[a,american] => [not critical] (Conf: 53.29021661020429%,Supp: 6.130498966637142%)
+[a] => [not critical] (Conf: 52.53967716828534%,Supp: 18.33599055211101%)
+[american,critical] => [manhattan] (Conf: 58.04171332586786%,Supp: 9.793917921464423%)
+[queens] => [critical] (Conf: 54.78741790528863%,Supp: 11.231178033658104%)
+[american] => [critical] (Conf: 53.74054989280476%,Supp: 16.873929731325656%)
+[12] => [critical] (Conf: 57.95653934404103%,Supp: 5.071154413935637%)
+[12] => [a] (Conf: 88.27102173032799%,Supp: 7.7236492471213465%)
+[13] => [a] (Conf: 87.34086426394119%,Supp: 5.752583407144966%)
+[italian] => [critical] (Conf: 56.38153846153845%,Supp: 5.410097431355181%)
+[b] => [critical] (Conf: 68.30150462962963%,Supp: 5.575435488633008%)
+[brooklyn] => [critical] (Conf: 54.4681399394369%,Supp: 9.984056687333924%)
+[a,american] => [manhattan] (Conf: 58.66954111487528%,Supp: 6.7493356953055805%)
+[american,manhattan] => [critical] (Conf: 53.7424664636122%,Supp: 9.793917921464423%)
+[a,manhattan] => [not critical] (Conf: 52.36692471055696%,Supp: 9.027457927369353%)
+[italian] => [manhattan] (Conf: 64.02461538461537%,Supp: 6.143489813994686%)
+[american,not critical] => [manhattan] (Conf: 58.21663573477307%,Supp: 8.149985237673457%)
+[manhattan] => [critical] (Conf: 55.07253361607788%,Supp: 26.990256864481843%)
